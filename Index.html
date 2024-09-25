@@ -3,27 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./reset.css">
     <title>Curso de programación</title>
 </head>
 <body>
    <header>
-    <h1>Curso de programación</h1> 
-<span> Github </span>
-<span> Terminal </span>
-<span> HTML </span>
-   </header> 
-
+   <div id="titulos">
+    <h1  class="title" id="principal">Curso de programación</h1> 
+    </div>
+    
+    <div id="button-container">
+<div class="button"> Github </div>
+<div class="button"> Terminal </div>
+<div class="button"> HTML </div>
+    </div>
+    
+</header>   
    <main>
 <section> 
-<h2> Opciones de cursos disponibles </h2>
-<hr>
+<h2 class="title" id="secundario"> Opciones de cursos disponibles </h2>
+
+<div id="article-container">
+<div class="article">
 <article>
-    <h3> JAVA </h3>
-    <p>
+    <h3 class="title"id="terciario"> JAVA </h3>
+    
+    <p class="text">
         Java es un lenguaje de programación y una plataforma informática que fue comercializada por primera vez en 1995 por Sun Microsystems.
     </p>
     <p> 
-        <ol><h4> Ventajas de utilizar este lenguaje:  </h4>
+        <ol><h4 id="cuaternario"> Ventajas de utilizar este lenguaje:  </h4>
             <li> Interactividad en tiempo real </li>
             <li> Detección y respuesta a eventos </li>
             <li> Manipulación sencilla del DOM </li>
@@ -31,47 +41,58 @@
     </p>
    
 </article>
-<hr>
+</div>
+
+
+
+<div class="article">
 <article>
-    <h3> PYTHON </h3>
-    <p>
+    <h3 class="title"id="terciario"> PYTHON </h3>
+    <p class=text>
 Python es un lenguaje de alto nivel de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código. Se trata de un lenguaje de programación multiparadigma, ya que soporta parcialmente la orientación a objetos, programación imperativa y, en menor medida, programación funcional
     </p>
-<ul> <h4>Ventajas de utulizar este lenguaje:</h4>
+<ul> <h4 id="cuaternario">Ventajas de utulizar este lenguaje:</h4>
     <li> Sintaxis clara y legible </li>
     <li> Gran comunidad y soporte </li>
     <li> Amplia biblioteca estándar </li>
 
 </ul>
+
 </article>
-<hr>
+</div>
+
+
+
+<div class="article">
 <article>
-    <h3> C </h3>
-    <p>
+    <h3 class="title" id="terciario"> C </h3>
+    <p class="text">
         C es un lenguaje de programación de propósito general orignalmente desarrollado por Dennis Ritchie entre 1969 y 1972 en los Laboratorios Bell, ​ como evolución del anterior lenguaje B, a su vez basado en BCPL.​​​Al igual que B, es un lenguaje orientado a la implementación de sistemas operativos; concretamente Unix.
     </p>
     <p>
 <ol>
-    <h3> Ventajas de utilizar este lenguaje:</h3>
+    <h4 id="cuaternario"> Ventajas de utilizar este lenguaje:</h4>
     <li> Eficiencia y rendimiento </li>
     <li> Portabilidad </li>
     <li> Comunidad activa </li>
 </ol>
     </p>
+    <br>
 <p>
     <ul>
-        <h3> Desventajas de utilizar este lenguaje: </h3>
+        <h4 id="cuaternario"> Desventajas de utilizar este lenguaje: </h4>
         <li> Complejidad </li>
         <li> Falta de abstracción </li>
         <li> Seguridad </li>
             </ul>
 </p>    
 </article>
-
+</div>
+</div>
 </section>
    </main>
-<footer>
-<a href="./Formulario.html"> Para incribirte a uno de nuestros cursos, hace clic acá!</a>
+<footer class="footer">
+<a href="./Formulario.html"> Para incribirte a uno de nuestros cursos, hace clic acá !</a>
 
 </footer>
 
